@@ -2,6 +2,8 @@
 
 PM2 module to send logs to elasticsearch
 
+Warning: Due to version upgrade of elasticsearch, both of [pm2-elasticlogs](https://github.com/infuse89/pm2-elasticlogs) and [pm2-elastic](https://github.com/danilaplee/pm2-elastic) are no longer work any more when the version of elasticsearch beyond V7.5, so try this repository to sync your pm2 logs into ELK.
+
 ```bash
 $ npm install pm2 -g
 
